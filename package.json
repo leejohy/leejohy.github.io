@@ -20,6 +20,6 @@
     "hexo-server": "^0.2.0"
   },
   "scripts": {
-    "deploy": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push origin gh-pages && hexo clean && hexo deploy"
+    "deploy": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push origin gh-pages && hexo clean && hexo deploy --generate"
   }
 }
