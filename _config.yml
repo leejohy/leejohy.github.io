@@ -7,7 +7,7 @@ title: leejohy.github.io
 subtitle: 
 description: 
 author: leejohy
-language:
+language: en
 timezone: Asia/Seoul
 
 # URL
@@ -27,6 +27,12 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+# prism_plugin setting
+prism_plugin:
+  mode: 'preprocess'
+  theme: 'ghcolors'
+  line_number: true
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -38,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
